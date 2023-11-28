@@ -1,0 +1,21 @@
+{
+  "name": "graphql-intro-class",
+  "version": "1.0.0",
+  "description": "This is my first graphql intro class",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamza Altamas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
